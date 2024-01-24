@@ -1,0 +1,4 @@
+class GitRepository {
+private:
+    std::map<std::string, std::vector<std::string>> branches;
+    std::string currentBranch;
